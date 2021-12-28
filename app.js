@@ -7,7 +7,7 @@ const todoController = require("./controllers/todoController");
 app.use(express.json());
 
 app.get("/", function (req, res) {
-  res.status(200).json({ message: "Welcome to isaa-todo-API" });
+  res.status(200).json({ message: "Welcome to richmond-todo-API" });
 });
 app.get("/todos", todoController.getAllTodo);
 app.post("/todos", todoController.addTodo);
